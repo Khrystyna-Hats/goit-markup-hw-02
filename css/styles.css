@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #212121;
   background-color: #ffffff;
 }
@@ -29,18 +29,13 @@ body {
   cursor: pointer;
 }
 
-/* Якщо я правильно зрозуміла, треба було підсвітити поточну сторінку синім, але не знаю, як підсвітити силку "Портфоліо" лише на сторінці Портфоліо, і так само із головною сторінкою html :( */
-a[href="./portfolio.html"] {
-  color: var(--accent-color);
-}
-
 /* Header */
 .logo {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-weight: 700;
-  font size: 26px;
-  line height: 1.19;
-  letter spacing: 3%;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03;
   color: #000000;
 }
 
@@ -48,161 +43,164 @@ a[href="./portfolio.html"] {
   color: var(--accent-color);
 }
 
-.nav-item-link {
-    font-weight: 500;
-    font size: 14px;
-    line height: 1.14;
-    letter spacing: 2%;
-    color: var(--main-text-color);
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02;
+  color: var(--main-text-color);
 }
 
-.nav-item-link:hover,
-.nav-item-link:focus,
+.nav-link:hover,
+.nav-link:focus,
 .second-address-link:hover,
 .second-address-link:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .second-address-link {
-    font-weight: 500;
-    font size: 14px;
-    line height: 1.14;
-    letter spacing: 2%;
-    color: var(--second-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02;
+  color: var(--second-text-color);
 }
 
 /* Hero */
 
 .hero {
-    font-weight: 900;
-    font size: 44px;
-    line height: 1.36;
-    align: Center;
-    letter spacing: 6%;
-    text-transform: uppercase;
-    text-align: center;
-    color: var(--third-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--third-text-color);
 }
 
 .hero-section {
-background-color: var(--second-background-color);
+  background-color: var(--second-background-color);
 }
 
 .hero-btn {
-    font-family: inherit;
-    font-weight: 700;
-    font size: 16px;
-    line height: 1.88;
-    letter spacing: 6%;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06;
 }
 
 .btn:hover,
 .btn:focus {
-    background-color: var(--accent-color);
-    color: var(--third-text-color);
- }
+  background-color: var(--accent-color);
+  color: var(--third-text-color);
+}
 
- /* Benefits */
+/* Benefits */
 
- .benefits-title {
-    font size: 14px;
-    line height: 1.14;
-    align: Left;
-    letter spacing: 3%;
-    text-transform: uppercase;
- }
+.benefits-title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: left;
+  letter-spacing: 0.03;
+  text-transform: uppercase;
+}
 
- .benefits-desc {
-    font size: 14px;
-    line height: 1.71;
-    align: Left;
-    letter spacing: 3%;
-    color: var(--second-text-color);
- }
+.benefits-desc {
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: left;
+  letter-spacing: 0.03;
+  color: var(--second-text-color);
+}
 
- /* What we do */
+/* What we do */
 
- .header {
-    font size: 36px;
-    line height: 1.17;
-    text-align: center;
-    letter spacing: 3%;
- }
+.header {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03;
+}
 
- /* Our team */
+/* Our team */
 
 .our-team {
   background-color: var(--third-background-color);
 }
 
 .team-member {
-    font-weight: 500;
-    font size: 16px;
-    line height: 1.19;
-    align: Center;
-    letter spacing: 3%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /* text-align: Center; */
+  letter-spacing: 0.03;
 }
 
 .team-desc {
-  font size: 16px;
-  line height: 1.19;
-  align: Center;
-  letter spacing: 3%;
+  font-size: 16px;
+  line-height: 1.19;
+  /* text-align: Center; */
+  letter-spacing: 0.03;
   color: var(--second-text-color);
 }
 
 /* Footer */
 
 .address-section {
-    background-color: var(--second-background-color);
+  background-color: var(--second-background-color);
 }
 
 .main-address-link {
-    font-style: normal;
-    font-weight: 400;
-    font size: 14px;
-    line height: 1.71;
-    align: Left;
-    letter spacing: 3%;
-    color: var(--third-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: Left;
+  letter-spacing: 0.03;
+  color: var(--third-text-color);
 }
 
-.address-specialty{
+.address-specialty {
   color: rgba(255, 255, 255, 0.6);
 }
 
 .main-address-link:hover,
 .main-address-link:focus {
-    background-color: var(--accent-color);
-    color: var(--third-text-color);
+  background-color: var(--accent-color);
+  color: var(--third-text-color);
 }
 
 /* Portfolio */
 
-.portfolio-section{
+.portfolio-section {
   background-color: #ffffff;
 }
 
 .portfolio-btn {
-    font-family: inherit;
-    font-weight: 500;
-    font size: 16px;
-    line height: 1.63;
-    align: Center;
-    letter spacing: 3%;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: Center;
+  letter-spacing: 0.03;
 }
 
 .project-card > .project-header {
-font size: 18px;
-line height: 2;
-align: Left;
-letter spacing: 6%;
+  font-size: 18px;
+  line-height: 2;
+  text-align: Left;
+  letter-spacing: 0.06;
 }
 
 .project-desc {
-color: var(--second-text-color);
-font size: 16px;
-line height: 1.88;
-align: Left;
-letter spacing: 3%;
+  color: var(--second-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: left;
+  letter-spacing: 0.03;
+}
+
+.current {
+  color: var(--accent-color);
 }
