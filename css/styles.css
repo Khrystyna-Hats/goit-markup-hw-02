@@ -35,7 +35,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   color: #000000;
 }
 
@@ -47,7 +47,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
 
@@ -62,7 +62,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
 
@@ -72,7 +72,7 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  letter-spacing: 0.06;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
   color: var(--third-text-color);
@@ -87,7 +87,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.06;
+  letter-spacing: 0.06em;
 }
 
 .btn:hover,
@@ -102,7 +102,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-align: left;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -110,7 +110,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   text-align: left;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
 
@@ -120,7 +120,7 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
 }
 
 /* Our team */
@@ -134,14 +134,14 @@ body {
   font-size: 16px;
   line-height: 1.19;
   /* text-align: Center; */
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
 }
 
 .team-desc {
   font-size: 16px;
   line-height: 1.19;
   /* text-align: Center; */
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
 
@@ -157,7 +157,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   text-align: Left;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   color: var(--third-text-color);
 }
 
@@ -167,8 +167,7 @@ body {
 
 .main-address-link:hover,
 .main-address-link:focus {
-  background-color: var(--accent-color);
-  color: var(--third-text-color);
+  color: var(--accent-color);
 }
 
 /* Portfolio */
@@ -183,14 +182,14 @@ body {
   font-size: 16px;
   line-height: 1.63;
   text-align: Center;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
 }
 
 .project-card > .project-header {
   font-size: 18px;
   line-height: 2;
   text-align: Left;
-  letter-spacing: 0.06;
+  letter-spacing: 0.06em;
 }
 
 .project-desc {
@@ -198,7 +197,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   text-align: left;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
 }
 
 .current {
